@@ -1,0 +1,863 @@
+/*==================*/
+/* Common Css Start */
+/*==================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:1.6rem;
+    
+}
+
+.row{
+    max-width:114rem;
+    margin:0 auto;
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+section{
+    padding:8rem 0;
+}
+:focus{
+    outline:0;
+}
+
+/*==================*/
+/* Common Css End */
+/*==================*/
+
+
+
+
+
+
+
+
+
+
+
+/*==================*/
+/* Header Arae Start */
+/*==================*/
+
+header{
+    background: linear-gradient(rgba(135, 80, 156, 0.9),rgba(135, 80, 156, 0.9)),url(img/hero-bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height:60rem;
+    position: relative;
+    
+}
+
+
+.logo_area{
+    float:left;
+    margin-top:5.5rem;
+   
+}
+
+.main_menu_area{
+    float:right;
+    margin-top:5.5rem;
+
+
+}
+.main_menu_area ul li{
+    display:inline-block;
+    
+
+}
+.main_menu_area ul li a{
+    margin-left:1.5rem;
+    color:#fff;
+    padding:.3rem 1.6rem;
+    border-radius:.2rem;
+    transition: all .3s;
+
+}
+.main_menu_area ul li a:hover{
+   background:#643a79;
+
+}
+
+
+.slider_header{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    width:114rem;
+    
+}
+.slider_header h1{
+    font-size:4.2rem;
+    color:#fff;
+    margin-bottom: 4.5rem;
+    
+}
+.slider_header a{
+    font-size:1.8rem;
+    background:#eb7d47;
+    color:#fff;
+    padding:1rem 4rem;
+    border:.1rem solid  #eb7d47;
+    
+}
+.slider_header a:hover{
+    background:#ca612d;
+}
+
+
+
+/* Stickey Menu */
+.stickey{
+    position:fixed;
+    background: #5d73a9;
+    left:0;
+    right:0;
+    top:0;
+    z-index:999;
+    box-shadow: 0 .2rem 0 rgba(255, 255, 255, 0.9);;
+    margin-bottom:2.5rem;
+}
+.stickey .logo_area {
+	float: left;
+	margin-top: 1.2rem;
+}
+.stickey .logo_area img {
+	margin-bottom: 1.2rem;
+}
+.stickey .main_menu_area {
+	float: right;
+	margin-top: 2.6rem;
+}
+.stickey .main_menu_area ul li a:hover{
+    background: #536798;
+}
+
+
+/*   Mobile Menu    */
+
+.mobileMenu{
+    color:#fff;
+    font-size:3rem;
+    float:right;
+    margin-top:5.5rem;
+    display:none;
+}
+.mobileMenu:hover{
+   cursor:pointer;
+
+}
+.overlay{
+    width:0;
+    height:100%;
+    left:0;
+    top:0;
+    background:rgba(0, 0, 0, 0.9);
+    position:fixed;
+    z-index:1;
+    transition: all 1s;
+    overflow:hidden;
+    
+}
+
+.overlayContent{
+    position:relative;
+    top:30%;
+    text-align: center;
+}
+.overlayContent a{
+    display: block;
+    color:#999;
+    font-size:3rem;
+    padding:1rem 0;
+    letter-spacing:3px;
+    
+}
+.overlayContent a:hover{
+    color:#fff;
+
+}
+.colsebtn {
+	position: absolute;
+	color: #999;
+	top: 10%;
+	left: 84%;
+	font-size: 4rem;
+}
+
+
+
+
+
+
+/*==================*/
+/* Header Area End */
+/*==================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================*/
+/* Service Area Start */
+/*==================*/
+
+#survice_area{
+    background:linear-gradient(rgba(23, 194, 163, 0.9),rgba(23, 194, 163, 0.9)),url(img/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+    text-align: center;
+    height: 70rem;
+   
+}
+
+
+#survice_area h2{
+    font-size:3rem;
+    font-weight:600;
+    margin-top:0;
+}
+#survice_area h2::after{
+    content:"";
+    background:#14a58c;
+    width: 6.5rem;
+    height: .3rem;
+    margin: auto;
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+#survice_area p{
+    font-size: 1.8rem;
+}
+
+.cntrl_sub_section_{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:7.5rem;
+ 
+}
+
+.sub_section{
+    flex-basis: 24%;
+}
+.sub_section img{
+    height:12.5rem;
+}
+
+
+.sub_section h3{
+    font-size:2rem;
+    margin-top:5rem;
+    margin-bottom:1.5rem;
+}
+
+
+
+
+/*==================*/
+/* Service Area End */
+/*==================*/
+
+
+
+
+
+
+/*==================*/
+/* Team Area Start */
+/*==================*/
+#team_area{
+    background:linear-gradient(rgba(231, 241, 248, 0.9),rgba(231, 241, 248, 0.9)),url(img/team-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding:6rem 0;
+    text-align:center;
+}
+#team_area h2{
+    font-size:3rem;
+    font-weight:600;
+    margin-top:0;
+    color:#3c4761;
+    letter-spacing: .5rem;
+}
+#team_area h2::after{
+    content:"";
+    background:#c8d9e5;
+    width: 6.5rem;
+    height: .3rem;
+    margin: auto;
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+#team_area p{
+    font-size:1.7rem;
+    color:#3c4761;
+}
+.cntrl_team_area{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:4.5rem;
+}
+.sub_team{
+    flex-basis:24%;
+}
+
+.sub_team img{
+    margin-top:3rem;
+    margin-bottom:4.5rem;
+    width:20rem;
+    height:20rem;
+    border-radius:50%;
+}
+.sub_team h3{
+     font-size:2.2rem;
+     color:#27283d;
+}
+.sub_team span{
+     font-size:1.4rem;
+     color:#30bae7;
+     
+}
+.sub_team p{
+     font-size:1.6rem;
+     color:#3c4761;
+     margin-top:20px;
+     
+}
+.sub_team ul{
+    margin-top:2rem;
+    
+}
+.sub_team ul li{
+  display: inline-block;
+}
+.sub_team ul li a{
+    color:#fff;
+    margin-left:.5rem;
+    margin-right:.5rem;
+}
+.sub_team ul li a i {
+	background: #bdd1df;
+	padding: 1rem;
+	width: 4rem;
+	height: 4rem;
+    border-radius: 50%;
+    transition: all .3s;
+	
+}
+
+.sub_team ul li a i:hover {
+    background: #30bae7;
+    transform:rotate(360deg);
+	
+}
+
+
+
+
+
+
+
+
+
+/*==================*/
+/* Team Area End */
+/*==================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================*/
+/* Skill Area Start */
+/*==================*/
+
+
+#Skill_area{
+    background:linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)),url(img/skill-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+#Skill_area h2{
+    font-size: 3rem;
+    color:#3c4761;
+    font-weight:600;
+}
+#Skill_area  h2::after{
+    content:"";
+    background:#c8d9e5;
+    width: 6.5rem;
+    height: .3rem;
+    margin: auto;
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+#Skill_area p{
+    font-size:1.8rem;
+    color:#3c4761;
+    
+}
+
+.cntrl_sub_skill{
+    margin-top:9rem;
+    display:flex;
+    flex-direction: row;
+}
+.sub_skill{
+    flex-basis:25%;
+}
+.sub_skill h3{
+    font-size:2.1rem;
+    color:#3c4761;
+    font-weight:600;
+}
+/* Skill Progress Bar */
+
+svg.radial-progress circle {
+    stroke-width:6;
+}
+svg.radial-progress text {
+    fill: #3c4761;
+}
+svg.web circle{ 
+    stroke:#30bae7; 
+}
+svg.html circle{ 
+    stroke:#d74680; 
+}
+svg.graphic circle{ 
+    stroke:#15c7a8; 
+}
+svg.ui circle{ 
+    stroke:#eb7d4b; 
+}
+
+
+
+
+
+/*==================*/
+/* Skill Area End */
+/*==================*/
+
+
+
+
+
+
+
+
+/*========================/
+/* Portfolio Area Start */
+/*=======================*/
+
+#portfolio_area{
+    background:linear-gradient(rgba(255, 221, 153, 0.9),rgba(255, 221, 153, 0.9)),url(img/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align:center;
+}
+#portfolio_area h2{
+    font-size: 3rem;
+    color:#393939;
+    font-weight:600;
+}
+#portfolio_area  h2::after{
+    content:"";
+    background:#e5c37f;
+    width: 6.5rem;
+    height: .3rem;
+    margin: auto;
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+#portfolio_area  p{
+    color:#393939;
+    font-size:1.8rem;
+}
+.cntrl_sub_portfolio1, .cntrl_sub_portfolio2{
+    display:flex;
+    flex-direction: row;
+}
+.portfolio_btn{
+    margin:4.5rem 0;
+}
+.portfolio_btn button{
+    background:#ebc985;
+    color:#393939;
+    font-size:1.6rem;
+    padding:1rem 2rem;
+    margin:0 1rem;
+    border:none;
+    border-radius:.2rem;
+    transition:all .5s;
+}
+.portfolio_btn button:hover {
+	cursor: pointer;
+    background:#bb9241da;
+}
+.sub_portfolio h4{
+    font-size:1.8rem;
+    color:#393939;
+    font-weight:400;
+    margin-top:2rem;
+    margin-bottom:4.5rem;
+}
+.sub_portfolio img{
+    width:100%;
+
+}
+.submit_btn{
+    font-size:1.7rem;
+    padding:1rem 6rem;
+    background:#17c2a4;
+    color:#fff;
+   
+}
+.submit_btn:hover{
+    background:#09c7b7;
+}
+
+
+
+
+/*=======================*/
+/* Portfolio Area End */
+/*=======================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================*/
+/* Testimonial Area Start */
+/*=======================*/
+
+
+#testimonai_area{
+    background:linear-gradient(rgba(215, 70, 128, 0.9),rgba(215, 70, 128, 0.9)),url(img/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+#testimonai_area h2{
+    font-size: 3rem;
+    color:#fff;
+    font-weight:600;
+    text-align: center;
+}
+#testimonai_area h2::after{
+    content:"";
+    background:#b73c6d;
+    width: 6.5rem;
+    height: .3rem;
+    margin: auto;
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+#testimonai_area .para{
+    text-align: center;
+    color:#fff;
+    margin-bottom:4.5rem;
+}
+.cntrlSubTestimonial{
+    display:flex;
+    flex-direction:row;
+}
+.cntrl_reviewImg, .cntrl_reviewImg2{
+    display:flex;
+    flex-direction:row;
+    flex-basis:50%;
+    
+}
+
+.topTestimonial{
+    margin-bottom:45px;
+}
+
+.client_img img{
+    width:9rem;
+    height:9rem;
+    border-radius: 50%;
+
+
+}
+.client_review{
+    width:70%;
+    margin-left:25px;
+    
+}
+.client_review p{
+    color:#fff;
+    font-weight:400;
+   
+    
+}
+.client_review h3{
+    color:#fff;
+    font-size:2rem;
+    font-weight:600;
+    
+}
+.client_review span{
+    color:#ffdd99;
+    font-size:1.6rem;
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================*/
+/* Testimonial Area End */
+/*=======================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================*/
+/* Contact Area Start */
+/*=======================*/
+#contact_area{
+    background:linear-gradient(rgba(60, 83, 153, 0.9),rgba(60, 83, 153, 0.9)),url(img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    background-attachment: fixed;
+    text-align:center;
+}
+
+#contact_area h2{
+    font-size: 3rem;
+    color:#fff;
+    font-weight:600;
+}
+
+#contact_area h2::after{
+    content:"";
+    background:#273a71;
+    width: 6.5rem;
+    height: .3rem;
+    margin: auto;
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+#contact_area p{
+    color:#fff;
+    margin-bottom:4.5rem;
+}
+form {
+	width: 53%;
+	margin-left: 24%;
+}
+
+.text_area{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.text_area input{
+    width:100%;
+    padding:1.2rem;
+    background:#273a71;
+    border:.1rem solid #273a71;
+    font-size:1.6rem;
+    color:#fff;
+    border-radius:.3rem;
+    margin-bottom:3rem;
+  
+}
+.text_area input[type="text"]{
+   
+}
+.text_area input[type="email"]{
+    margin-left:5.5rem;
+   
+}
+.msg_area textarea{
+    padding:1.5rem;
+    background:#273a71;
+    border:.1rem solid #273a71;
+    font-size:1.8rem;
+    color:#fff;
+    border-radius:.3rem;
+    width:100%;
+    height:20rem;
+}
+
+.cntct_btn{
+    font-size:1.8rem;
+    background:#30bae7;
+    color:#fff;
+    padding:1rem 6.5rem;
+    border:.1rem solid  #30bae7;
+    margin-top:4.5rem;
+    font-size:1.6rem;
+}
+
+.cntct_btn:hover{
+    cursor:pointer;
+}
+
+
+.scrollimg{
+    background: url(resource/img/scroll-up-icon-14.png);
+    float:right;
+    margin-right:0;
+    height: 3.8rem;
+      
+}
+.scrollimg:hover{
+    cursor:pointer;
+}
+
+/*=======================*/
+/* Contact Area End */
+/*=======================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================*/
+/* Footer Area Start */
+/*=======================*/
+
+#footer_area{
+    background: #344b8e;
+    color:#fff;
+    text-align: center;
+    padding:4.5rem 0;
+    border-top:.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+#footer_area ul li{
+    display:inline-block;
+}
+
+#footer_area ul li a{
+    color:#fff;
+    margin:0 1.5rem;
+    font-size:2rem;
+}
+#footer_area ul li a:hover{
+    color:#3286bd;
+}
+
+
+
+
+
+
+/*=======================*/
+/* Footer Area End */
+/*=======================*/

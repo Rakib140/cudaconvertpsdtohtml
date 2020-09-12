@@ -1,0 +1,211 @@
+
+@media only screen and (max-width:1200px){
+    form {
+        width: 70%;
+        margin-left: 16%;
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+    .row{
+        margin:0 15px;
+    }
+    html {
+        font-size: 57.5%;
+    }
+    .slider_header {
+        width: 91rem;
+    }
+    .cntrl_reviewImg, .cntrl_reviewImg2 {
+        display: block;
+       
+    }
+    .client_img {
+        text-align: center;
+    }
+    .client_review {
+        width: 91%;
+        text-align: center;
+    }
+    .main_menu_area {
+        display: none;
+    }
+    .mobileMenu{
+        display:block;
+    }
+    
+    .stickey .mobileMenu{
+        margin-top:1rem;
+    }
+
+    form {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .cntrl_team_area{
+        display:block;
+        margin-bottom:90px;
+    }
+    .sub_team {
+        width: 50%;
+        float: left;
+    }
+    .needTeam{
+        margin-bottom:90px;
+    }
+   
+    #survice_area {
+        height: 96rem;
+    }
+    .cntrl_sub_section_ {
+        display: block;
+       
+    }
+    .sub_section {
+        float: left;
+        width: 50%;
+        margin-bottom: 45px;
+    }
+    #Skill_area {
+        height: 185rem;
+    }
+    .cntrl_sub_skill {
+        display: block;
+    }
+    .sub_skill {
+        width: 50%;
+        float: left;
+        margin-bottom:45px;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:768px){
+    html {
+        font-size: 56.5%;
+    }
+    .slider_header {
+        width: 90%;
+    }
+    .slider_header h1 {
+        font-size: 3.5rem;
+      
+    }
+   
+    form {
+        width: 100%;
+        margin-left: 0;
+    }
+    header {
+        height: 45rem;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    html {
+        font-size: 54.5%;
+    }
+  .logo_area  img {
+        height: 30px;
+    }
+.slider_header h1 {
+	font-size: 3rem;
+}
+.slider_header a {
+	font-size: 1.5rem;
+	padding: 1rem 3rem;
+}
+.sub_section {
+	float: none;
+	width: 100%;
+}
+#survice_area {
+    height: auto;
+}
+
+.sub_team {
+	width: 100%;
+    float: none;
+    margin-bottom: 45px;
+}
+
+#team_area h2 {
+	letter-spacing: 0.3rem;
+}
+
+#Skill_area {
+	height: auto;
+}
+
+
+.sub_skill {
+	width: 100%;
+    float: none;
+    margin-bottom: 45px;
+}
+.cntrl_sub_portfolio1, .cntrl_sub_portfolio2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.submit_btn {
+	font-size: 1.4rem;
+	padding: 1rem 4rem;
+}
+.cntrlSubTestimonial {
+	display: flex;
+	flex-direction: column;
+}
+
+.cntrl_reviewImg, .cntrl_reviewImg2 {
+	flex-basis: 100%;
+	margin-bottom: 45px;
+}
+.topTestimonial {
+	margin-bottom: 0;
+}
+.text_area input[type="email"] {
+	margin-left: 5%;
+}
+.text_area {
+	flex-direction: column;
+}
+.text_area input[type="email"] {
+	margin-left: 0;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:379px){
+    .portfolio_btn {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+
+@media only screen and (max-width:360px){
+
+
+    html {
+        font-size: 46.5%;
+    }
+    .logo_area img {
+        height: 24px;
+    }
+   
+
+}
